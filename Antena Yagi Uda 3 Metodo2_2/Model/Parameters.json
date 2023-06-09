@@ -1,0 +1,59 @@
+{
+    "parameters": [
+        {
+            "descr": "Altura",
+            "expr": "1.5",
+            "name": "h",
+            "value": "1.5"
+        },
+        {
+            "descr": "Long Onda",
+            "expr": "100.1",
+            "name": "lamda",
+            "value": "100.1"
+        },
+        {
+            "descr": "Reflector de la antena",
+            "expr": ".482*lamda",
+            "name": "reflector",
+            "value": "48.2482"
+        },
+        {
+            "descr": "Elemento activo",
+            "expr": ".4*lamda",
+            "name": "activo",
+            "value": "40.04"
+        },
+        {
+            "descr": "Elemento director",
+            "expr": "0.442*lamda",
+            "name": "director",
+            "value": "44.2442"
+        },
+        {
+            "descr": "Distancia entre componentes",
+            "expr": ".20*lamda",
+            "name": "d",
+            "value": "20.02"
+        },
+        {
+            "descr": "impedancia",
+            "expr": "50",
+            "name": "Zi",
+            "value": "50"
+        },
+        {
+            "descr": "gap del activo",
+            "expr": "10",
+            "name": "feed",
+            "value": "10"
+        },
+        {
+            "descr": "ancho de los componentes",
+            "expr": "6.4",
+            "name": "ancho",
+            "value": "6.4"
+        }
+    ],
+    "version": 1
+}

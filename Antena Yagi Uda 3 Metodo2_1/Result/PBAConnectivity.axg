@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Components\component1:EAct" id="1">
+      <LineSet points="0 0 0 0 0 0 0 1.5 -2.5 0 0 0 0 0 0 2.5 1.5 -5 2.5 1.5 -2.5 2.5 0 -2.5 0 -2.2065115 -7.50590611 0 0 0 0 0 0 2.5 -2.2065115 -7.50590611 2.5 0 -7.50590611 2.5 -2.2065115 -5 -2.75514746 -2.2065115 -7.50590611 -2.75514746 0 -7.50590611 0 0 0 -2.75514746 -2.2065115 -5 -2.75514746 0 -2.5 -2.75514746 -2.2065115 -2.5 0 -2.2065115 -2.5 -2.75514746 1.5 -5 -2.75514746 1.5 -2.5 0 1.5 -7.50590611 2.5 1.5 -7.50590611 2.5 -2.2065115 -2.5 -2.75514746 1.5 -7.50590611" lines="2 6 5 6 6 7 7 25 8 14 11 8 11 12 12 24 13 11 14 15 15 26 17 14 18 19 19 17 19 20 20 25 21 22 22 2 22 18 23 26 24 5 24 23 25 13 26 21" material="$ConnectedMaterial$"/>
+    </Object>
+    <Object name="Ports\port1" id="2">
+      <LineSet points="0 0 0 0 0 0 0 1.5 -2.5 0 0 0 0 0 0 2.5 1.5 -5 2.5 1.5 -2.5 2.5 0 -2.5 0 -2.2065115 -7.50590611 0 0 0 0 0 0 2.5 -2.2065115 -7.50590611 2.5 0 -7.50590611 2.5 -2.2065115 -5 -2.75514746 -2.2065115 -7.50590611 -2.75514746 0 -7.50590611 0 0 0 -2.75514746 -2.2065115 -5 -2.75514746 0 -2.5 -2.75514746 -2.2065115 -2.5 0 -2.2065115 -2.5 -2.75514746 1.5 -5 -2.75514746 1.5 -2.5 0 1.5 -7.50590611 2.5 1.5 -7.50590611 2.5 -2.2065115 -2.5 -2.75514746 1.5 -7.50590611" lines="2 6 5 6 6 7 7 25 8 14 11 8 11 12 12 24 13 11 14 15 15 26 17 14 18 19 19 17 19 20 20 25 21 22 22 2 22 18 23 26 24 5 24 23 25 13 26 21" material="$ConnectedMaterial$"/>
+      <LineSet points="0 0 0 2.5 3.7065115 5 2.5 3.7065115 7.50590611 2.5 1.5 7.50590611 0 0 0 0 0 0 5 3.7065115 7.50590611 0 0 0 5 0 2.5 0 0 0 0 0 0 7.75514746 0 2.5 7.75514746 1.5 2.5 0 0 0 7.75514746 0 5 5 0 7.50590611 7.75514746 1.5 7.50590611 7.75514746 0 7.50590611 7.75514746 3.7065115 5 7.75514746 3.7065115 7.50590611 2.5 1.5 2.5 2.5 3.7065115 2.5 5 3.7065115 2.5 7.75514746 3.7065115 2.5 2.5 0 5 2.5 0 7.50590611 2.5 0 2.5" lines="1 2 2 3 2 6 3 25 6 19 8 26 11 8 11 12 12 23 14 11 15 17 16 17 17 14 18 19 19 16 20 21 21 1 22 21 23 18 23 22 24 26 25 15 25 24 26 20" material="$ConnectedMaterial$"/>
+    </Object>
+    <Object name="Components\component1:EAct [lump 2]" id="3">
+      <LineSet points="0 0 0 2.5 3.7065115 5 2.5 3.7065115 7.50590611 2.5 1.5 7.50590611 0 0 0 0 0 0 5 3.7065115 7.50590611 0 0 0 5 0 2.5 0 0 0 0 0 0 7.75514746 0 2.5 7.75514746 1.5 2.5 0 0 0 7.75514746 0 5 5 0 7.50590611 7.75514746 1.5 7.50590611 7.75514746 0 7.50590611 7.75514746 3.7065115 5 7.75514746 3.7065115 7.50590611 2.5 1.5 2.5 2.5 3.7065115 2.5 5 3.7065115 2.5 7.75514746 3.7065115 2.5 2.5 0 5 2.5 0 7.50590611 2.5 0 2.5" lines="1 2 2 3 2 6 3 25 6 19 8 26 11 8 11 12 12 23 14 11 15 17 16 17 17 14 18 19 19 16 20 21 21 1 22 21 23 18 23 22 24 26 25 15 25 24 26 20" material="$ConnectedMaterial$"/>
+    </Object>
+    <Object name="Components\component1:feed" id="4"/>
+    <Object name="Components\component1:EDir" id="5"/>
+    <Object name="Components\component1:ERef" id="6"/>
+  </Objects>
+  <Materials/>
+  <Groups>
+    <Group name="Groupcomponent1 EAct" type="Connectivity" ID="1">
+      <Item name="Components\component1:EAct" type="solid" id="1"/>
+      <Item name="Ports\port1" type="solid" id="2"/>
+    </Group>
+    <Group name="Groupcomponent1 EAct [lump 2]" type="Connectivity" ID="1">
+      <Item name="Components\component1:EAct [lump 2]" type="solid" id="3"/>
+      <Item name="Ports\port1" type="solid" id="2"/>
+    </Group>
+    <Group name="Isolators" type="Isolator" ID="1">
+      <Item name="Components\component1:feed" type="solid" id="4"/>
+    </Group>
+    <Group name="Unconsidered" type="Isolator" ID="1">
+      <Item name="Components\component1:EDir" type="solid" id="5"/>
+      <Item name="Components\component1:ERef" type="solid" id="6"/>
+    </Group>
+  </Groups>
+</CSTAuxiliaryGeometry>
