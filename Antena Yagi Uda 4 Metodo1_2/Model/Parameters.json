@@ -1,0 +1,77 @@
+{
+    "parameters": [
+        {
+            "descr": "Altura",
+            "expr": "1.5",
+            "name": "h",
+            "value": "1.5"
+        },
+        {
+            "descr": "Long Onda",
+            "expr": "100.1",
+            "name": "lamda",
+            "value": "100.1"
+        },
+        {
+            "descr": "Reflector de la antena",
+            "expr": ".54*lamda",
+            "name": "reflector",
+            "value": "54.054"
+        },
+        {
+            "descr": "Elemento activo",
+            "expr": ".48*lamda",
+            "name": "activo",
+            "value": "48.048"
+        },
+        {
+            "descr": "Elemento director1",
+            "expr": ".472*lamda",
+            "name": "director1",
+            "value": "47.2472"
+        },
+        {
+            "descr": "Distancia entre componentes",
+            "expr": ".20*lamda",
+            "name": "d",
+            "value": "20.02"
+        },
+        {
+            "descr": "impedancia",
+            "expr": "50",
+            "name": "Zi",
+            "value": "50"
+        },
+        {
+            "descr": "gap del activo",
+            "expr": "10",
+            "name": "feed",
+            "value": "10"
+        },
+        {
+            "descr": "ancho de los componentes",
+            "expr": "7.5",
+            "name": "ancho",
+            "value": "7.5"
+        },
+        {
+            "descr": "Elemento director1",
+            "expr": ".468*lamda",
+            "name": "director2",
+            "value": "46.8468"
+        },
+        {
+            "descr": "Boom metalico",
+            "expr": ".8*lamda",
+            "name": "boom",
+            "value": "80.08"
+        },
+        {
+            "descr": "Ancho del Boom",
+            "expr": "4.6",
+            "name": "anchoBoom",
+            "value": "4.6"
+        }
+    ],
+    "version": 1
+}

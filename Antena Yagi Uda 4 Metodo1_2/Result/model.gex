@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaGeometryFile version="20200202" creator="MatrixCalc">
+  <Components>
+    <Shape name="Components\component1:Boom" id="1" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="1 2 3 4 5 6"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:EAct" id="2" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="7 8 9 10 11 12 37 38 39 40 41 42"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:EDir1" id="3" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="13 14 15 16 17 18"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:EDir2" id="4" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="19 20 21 22 23 24"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:ERef" id="5" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="25 26 27 28 29 30"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:feed" id="6" visible="1" material="Vacuum" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="31 32 33 34 35 36"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+  </Components>
+  <Materials>
+    <Material name="air_0" priority="1">
+      <Drawstyle color="0.600000024 0.600000024 0.600000024" transparency="0" linestrength="1"/>
+    </Material>
+    <Material name="Copper (pure)" priority="5">
+      <Drawstyle color="1 1 0" transparency="0" linestrength="1"/>
+    </Material>
+    <Material name="Vacuum" priority="4">
+      <Drawstyle color="0.5 0.800000012 1" transparency="0" linestrength="1"/>
+    </Material>
+    <Material name="$NFSMaterial$" priority="2">
+      <Drawstyle color="0 1 1" transparency="0" linestrength="1"/>
+    </Material>
+  </Materials>
+  <Groups/>
+  <SimulationDomain min="-77.4854126 -49.9654083 -76.9924088" max="112.505409 51.4654083 76.9924088"/>
+  <MeshType type="HEX"/>
+  <HexMesh>
+    <Dimensions nx="42" ny="18" nz="33"/>
+    <MeshPlanesX values="-77.485409666666669 -69.043042913688126 -60.600676160709597 -52.430354702431671 -45.238516499756756 -40.112456192096523 -35.914970794730941 -31.717485397365351 -27.52 -25.13121925155766 -22.879999999999999 -20.02 -16.254548086620588 -12.190911064965439 -8.1272740433102975 -4.0636370216551496 0 3.7499999999999987 7.5 11.504000000000001 15.508000000000006 19.512000000000011 23.516000000000012 27.520000000000003 31.270000000000007 35.020000000000003 39.276772794512347 43.533545589024691 47.790318383537027 51.939440584589178 55.039999999999999 57.200000000000003 59.613772393896873 62.539999999999999 66.737485397365532 70.934970794731086 75.132456192096626 80.258516499756865 87.450354702431724 95.620676160709493 104.06304291368795 112.50540966666667"/>
+    <MeshPlanesY values="-49.965409666666666 -40.22650658805123 -30.487603509435864 -21.470413248440074 -14.562265962499408 -9.9879460407603684 -5.5809732472059936 -2.2397420406973074 0 1.5 3.7397420406972555 7.0809732472059315 11.487946040760304 16.062265962499328 22.970413248440046 31.987603509436024 41.726506588051386 51.465409666666673"/>
+    <MeshPlanesZ values="-76.992409666666674 -68.55102358357631 -60.109637500485945 -51.9330046323998 -44.742977548139507 -39.615205400109154 -35.417933196129155 -31.22066099214917 -27.026999999999997 -23.423400000000001 -19.66188944772362 -15.897240067488346 -12.132590687253076 -8.3679413070178121 -5 -2.2999999999999998 0 2.2999999999999998 5 8.3679413070177802 12.132590687253057 15.897240067488324 19.661889447723592 23.423400000000001 27.026999999999997 31.220660992149131 35.417933196129141 39.615205400109133 44.742977548139478 51.933004632399715 60.109637500485832 68.551023583576239 76.992409666666674"/>
+    <SnappingPlanesX values="0 8 10 11 16 18 23 25 30 31 33 41"/>
+    <SnappingPlanesY values="0 8 9 17"/>
+    <SnappingPlanesZ values="0 8 9 14 15 17 18 23 24 32"/>
+  </HexMesh>
+  <UnitCell/>
+  <GeometryFile filename="3d.slm" type="slim" scale_factor_to_meter="0.001" subdomain_id=""/>
+</MetaGeometryFile>

@@ -1,0 +1,39 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "h",
+         "type": "float",
+         "value": 1.5
+      },
+      {
+         "name": "lamda",
+         "type": "float",
+         "value": 100.1
+      },
+      {
+         "name": "Zi",
+         "type": "float",
+         "value": 50.0
+      },
+      {
+         "name": "feed",
+         "type": "float",
+         "value": 10.0
+      },
+      {
+         "name": "ancho",
+         "type": "float",
+         "value": 8.0
+      },
+      {
+         "name": "anchoBoom",
+         "type": "float",
+         "value": 4.0
+      }
+   ],
+   "outputVariables": []
+}
