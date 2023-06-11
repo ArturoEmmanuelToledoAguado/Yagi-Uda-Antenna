@@ -1,0 +1,77 @@
+{
+    "parameters": [
+        {
+            "descr": "Tamaño en X",
+            "expr": "100",
+            "name": "x",
+            "value": "100"
+        },
+        {
+            "descr": "Tamaño en Y",
+            "expr": "100",
+            "name": "y",
+            "value": "100"
+        },
+        {
+            "descr": "Grozor del dielectrico",
+            "expr": "1.565",
+            "name": "zDielectrico",
+            "value": "1.565"
+        },
+        {
+            "descr": "Grozor del Cobre",
+            "expr": ".035",
+            "name": "zCobre",
+            "value": ".035"
+        },
+        {
+            "descr": "Lambda",
+            "expr": "100.1",
+            "name": "lambda",
+            "value": "100.1"
+        },
+        {
+            "descr": "Elemento Reflector",
+            "expr": ".482*lambda",
+            "name": "EReflector",
+            "value": "48.2482"
+        },
+        {
+            "descr": "Elemento Activo",
+            "expr": ".428*lambda",
+            "name": "EActivo",
+            "value": "42.8428"
+        },
+        {
+            "descr": "Director 1",
+            "expr": ".424*lambda",
+            "name": "D1",
+            "value": "42.4424"
+        },
+        {
+            "descr": "Director 2",
+            "expr": ".42*lambda",
+            "name": "D2",
+            "value": "42.042"
+        },
+        {
+            "descr": "Boom Metalico",
+            "expr": ".8*lambda",
+            "name": "Boom",
+            "value": "80.08"
+        },
+        {
+            "descr": "Distancia entre elementos",
+            "expr": ".20*lambda",
+            "name": "Distancia",
+            "value": "20.02"
+        },
+        {
+            "descr": "Ancho de los elementos",
+            "expr": "8",
+            "name": "Ancho",
+            "value": "8"
+        }
+    ],
+    "version": 1
+}
