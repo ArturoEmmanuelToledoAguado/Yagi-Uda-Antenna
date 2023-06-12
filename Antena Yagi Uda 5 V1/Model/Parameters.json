@@ -71,6 +71,12 @@
             "expr": "8",
             "name": "Ancho",
             "value": "8"
+        },
+        {
+            "descr": "Ancho del Boom",
+            "expr": "4",
+            "name": "ABoom",
+            "value": "4"
         }
     ],
     "version": 1

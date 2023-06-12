@@ -3,7 +3,7 @@
     <Block Id="1" ForeignId="13151296" Class="MWSSCHEM" ImageIndex="1">
         <Size Height="150" Width="150"/>
         <Image IconPosition="TopRight" FileName="../3D/Model.dib" Scale="AutoFit">
-            <Size Height="392" Width="512"/>
+            <Size Height="256" Width="256"/>
         </Image>
         <Pos X="100" Y="0"/>
         <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>

@@ -23,9 +23,7 @@ false
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "patch:Dielectrico"
-
 [end]content
 [start]recover_picks
 1
@@ -41,9 +39,7 @@ Solid.Delete "patch:Dielectrico"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "patch:Reflector"
-
 [end]content
 [start]recover_picks
 1
@@ -59,9 +55,7 @@ Solid.Delete "patch:Reflector"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "patch:Activo"
-
 [end]content
 [start]recover_picks
 1
@@ -77,11 +71,8 @@ Solid.Delete "patch:Activo"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "patch:Director1"
-
 Solid.Delete "patch:Director1"
-
 [end]content
 [start]recover_picks
 1
@@ -97,8 +88,24 @@ Solid.Delete "patch:Director1"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "patch:Director2"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+10
+[end]block_index
+[start]command
+[end]command
+[start]content
+
+Solid.Delete "patch:Boom"
 
 [end]content
 [start]recover_picks
