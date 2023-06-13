@@ -1,5 +1,5 @@
 {
-    "date": "2023-06-12, 8:28:18 PM, Hora estándar central (México)",
+    "date": "2023-06-12, 22:09:56, Hora estándar central (México)",
     "solver_runs_and_tasks": {
         "module_name": "standard simulation project",
         "solver_run": {
@@ -37,10 +37,10 @@
             "task_name": "solver run",
             "time_info": {
                 "details": {
-                    "discretizer": 12,
-                    "solver": 36
+                    "discretizer": 18,
+                    "solver": 37
                 },
-                "run_time": 54
+                "run_time": 61
             }
         }
     },

@@ -1,9 +1,9 @@
-Frontend-Node:  =======================================================================
-                FPBA has been activated in order to calculate connectivity information.
-                =======================================================================
+Frontend-Node:  ======================
+                Mesher selection: FPBA
+                ======================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2023 Jun 12 (Mon):  20:27:19
+2023 Jun 12 (Mon):  22:03:24
 started: parallelization control
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -42,7 +42,7 @@ Hex mesh: global: [hxr o(0 | 0 | 0) s(66 | 74 | 18) np (no TSTs): 87912]
 =========================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2023 Jun 12 (Mon):  20:27:19
+2023 Jun 12 (Mon):  22:03:24
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -51,10 +51,10 @@ Processing CAD model (for field results)
 	[Improved internal geometry representation]
 	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
 Version 2023.4 (build 20230504)
-PBA version 0
+PBA version 2023050423
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-2023 Jun 12 (Mon):  20:27:19
+2023 Jun 12 (Mon):  22:03:24
 ========================================================================
 
 ===========================================
@@ -62,14 +62,14 @@ Finished CAD processing (for field results)
 ===========================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2023 Jun 12 (Mon):  20:27:19
+2023 Jun 12 (Mon):  22:03:25
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00557
+	Runtime                 00:00:00.00720
 	Peak Memory Usage:               21 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2023 Jun 12 (Mon):  20:27:19
+2023 Jun 12 (Mon):  22:03:25
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -78,10 +78,10 @@ Processing CAD model
 	[Improved internal geometry representation]
 	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
 Version 2023.4 (build 20230504)
-PBA version 0
+PBA version 2023050423
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-2023 Jun 12 (Mon):  20:27:19
+2023 Jun 12 (Mon):  22:03:25
 ========================================================================
 
 ----------------------------------------------
@@ -134,14 +134,14 @@ Geometry processor: default
 ------------------------------------------------------------------------------------------------
 Connectivity settings
 	Workflow selection: 0
-	Workflow version: 20190101
+	Workflow version: 20180101
 	Gap detection: true
 	Gap detection version: 2
 	TST version: 2
 	QQ workflow: true
 	CoCo workflow: true
 	Legacy topology: false
-	Connectivity check: true
+	Connectivity check: false
 ------------------------------------------------------------------------------------------------
 ************************************************************************************************
 
@@ -177,9 +177,9 @@ Finished CAD processing
 =======================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2023 Jun 12 (Mon):  20:27:20
+2023 Jun 12 (Mon):  22:03:25
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00250
+	Runtime                 00:00:00.00259
 	Peak Memory Usage:               23 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -214,11 +214,11 @@ Waiting jobs: 2
 Concurrency for section: 2/2
 Matrix calculation node 0
 	Mesh coverage: 4088500.00 %
-	Estimated peak memory usage per node: 41 MB, tightness: 1.99 %
+	Estimated peak memory usage per node: 41 MB, tightness: 3.65 %
 	Processor group: 0
 Matrix calculation node 1
 	Mesh coverage: 4088500.00 %
-	Estimated peak memory usage per node: 36 MB, tightness: 1.74 %
+	Estimated peak memory usage per node: 36 MB, tightness: 3.19 %
 	Processor group: 0
 Node distribution on 1 processor group: 2
 ------------------------------------------------------------------
@@ -230,10 +230,10 @@ Mesh: # of points excl. TSTs: 87912
 
 ===========================================
 Data rearrangement statistics:
-Disk IO directories:	00:00:00.0013
-Disk IO node domain files:	00:00:00.0267
+Disk IO directories:	00:00:00.0014
+Disk IO node domain files:	00:00:00.0503
 Disk IO FI domain files:	00:00:00.0000
-Disk IO meta information:	00:00:00.0046
+Disk IO meta information:	00:00:00.0062
 Sequential merge (TST):	00:00:00.0000
 ===========================================
 
@@ -276,10 +276,10 @@ Sequential merge (TST):	00:00:00.0000
                           + hyperthreading allowed by solver
          ==========================================================================
 
-1xN000:  ===================================================================================================
+1xN000:  ================================================================================
          Version: 2023.4 Release from 2023-05-04 (change 1108613) [Release]
          Workflow: PBA matrix coefficients
-         Operation: [fpba, meshfill, bg, port-path, tst, tst-nextgen, coeff, surface-imp, connectivity-tree]
+         Operation: [fpba, meshfill, bg, port-path, tst, tst-nextgen, coeff, surface-imp]
          Architecture: Windows, ID: AMD64
          System Windows-64bit
          Using processor group 0/1
@@ -291,18 +291,18 @@ Sequential merge (TST):	00:00:00.0000
          HEX Mesh information:
          Hex mesh: node: [hxr o(0 | 0 | 0) s(66 | 38 | 18) np (no TSTs): 45144]
          Hex mesh: extended: [hxr o(0 | 0 | 0) s(66 | 40 | 18) np (no TSTs): 47520]
-         ===================================================================================================
+         ================================================================================
 
 1xN000:  ------------------------------------------------------
          Memory status  on node "1xN000" for matrix calculation
          	Estimated memory consumption: 0.0408973 GB
          	Physical memory installed: 8.35517 GB
-         	Available physical memory: 2.02 GB
-         	Available relative memory: 24.1766%s
+         	Available physical memory: 1.084 GB
+         	Available relative memory: 12.974%s
          ------------------------------------------------------
 
 1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         2023 Jun 12 (Mon):  20:27:20
+         2023 Jun 12 (Mon):  22:03:26
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -311,10 +311,10 @@ Sequential merge (TST):	00:00:00.0000
          	[Perfect Boundary Approximation (PBA), version: default]
          	[GPU acceleration: off (by user)]
          Version 2023.4 (build 20230504)
-         PBA version 0
+         PBA version 2023050423
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         2023 Jun 12 (Mon):  20:27:20
+         2023 Jun 12 (Mon):  22:03:26
          ============================================================
 
 1xN000:  ----------------------------------------------
@@ -394,9 +394,9 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         2023 Jun 12 (Mon):  20:27:27
+         2023 Jun 12 (Mon):  22:03:35
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:06.00416
+         	Runtime                          00:00:09.00414
          	Peak Memory Estimation:                   41 MB
          	Peak Memory Usage:                        72 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -442,10 +442,10 @@ Sequential merge (TST):	00:00:00.0000
                           + hyperthreading allowed by solver
          ==========================================================================
 
-1xN001:  ===================================================================================================
+1xN001:  ================================================================================
          Version: 2023.4 Release from 2023-05-04 (change 1108613) [Release]
          Workflow: PBA matrix coefficients
-         Operation: [fpba, meshfill, bg, port-path, tst, tst-nextgen, coeff, surface-imp, connectivity-tree]
+         Operation: [fpba, meshfill, bg, port-path, tst, tst-nextgen, coeff, surface-imp]
          Architecture: Windows, ID: AMD64
          System Windows-64bit
          Using processor group 0/1
@@ -457,18 +457,18 @@ Sequential merge (TST):	00:00:00.0000
          HEX Mesh information:
          Hex mesh: node: [hxr o(0 | 36 | 0) s(66 | 38 | 18) np (no TSTs): 45144]
          Hex mesh: extended: [hxr o(0 | 34 | 0) s(66 | 40 | 18) np (no TSTs): 47520]
-         ===================================================================================================
+         ================================================================================
 
 1xN001:  ------------------------------------------------------
          Memory status  on node "1xN001" for matrix calculation
          	Estimated memory consumption: 0.0357129 GB
          	Physical memory installed: 8.35517 GB
-         	Available physical memory: 2.02 GB
-         	Available relative memory: 24.1766%s
+         	Available physical memory: 1.091 GB
+         	Available relative memory: 13.0578%s
          ------------------------------------------------------
 
 1xN001:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         2023 Jun 12 (Mon):  20:27:20
+         2023 Jun 12 (Mon):  22:03:26
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -477,10 +477,10 @@ Sequential merge (TST):	00:00:00.0000
          	[Perfect Boundary Approximation (PBA), version: default]
          	[GPU acceleration: off (by user)]
          Version 2023.4 (build 20230504)
-         PBA version 0
+         PBA version 2023050423
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         2023 Jun 12 (Mon):  20:27:20
+         2023 Jun 12 (Mon):  22:03:26
          ============================================================
 
 1xN001:  ----------------------------------------------
@@ -553,9 +553,9 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN001:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         2023 Jun 12 (Mon):  20:27:26
+         2023 Jun 12 (Mon):  22:03:33
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:05.00458
+         	Runtime                          00:00:07.00641
          	Peak Memory Estimation:                   36 MB
          	Peak Memory Usage:                        68 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -563,14 +563,14 @@ Sequential merge (TST):	00:00:00.0000
 
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-2023 Jun 12 (Mon):  20:27:30
+2023 Jun 12 (Mon):  22:03:40
 Resource usage for parallelization control:
-	Runtime                      00:00:11.00290
+	Runtime                      00:00:15.00935
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ------------------------------------------------------------------------------------------------------------------------------
 PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 2[ms]
-ConnectivityAXG - Load: 8[ms] - Setup: 0[ms] - Convert: 1[ms] ( Groups: 4 - Shapes: 5 - Threads: 4 ) - Write: 4[ms]
+ConnectivityAXG - Load: 6[ms] - Setup: 0[ms] - Convert: 1[ms] ( Groups: 4 - Shapes: 5 - Threads: 4 ) - Write: 3[ms]
 ------------------------------------------------------------------------------------------------------------------------------
 
 --------------------------------

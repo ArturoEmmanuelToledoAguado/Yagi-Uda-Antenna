@@ -1,0 +1,44 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "x",
+         "type": "float",
+         "value": 100.0
+      },
+      {
+         "name": "y",
+         "type": "float",
+         "value": 100.0
+      },
+      {
+         "name": "zDielectrico",
+         "type": "float",
+         "value": 1.565
+      },
+      {
+         "name": "zCobre",
+         "type": "float",
+         "value": 0.035
+      },
+      {
+         "name": "lambda",
+         "type": "float",
+         "value": 100.1
+      },
+      {
+         "name": "Ancho",
+         "type": "float",
+         "value": 10.0
+      },
+      {
+         "name": "ABoom",
+         "type": "float",
+         "value": 4.0
+      }
+   ],
+   "outputVariables": []
+}

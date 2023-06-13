@@ -32,9 +32,9 @@
         },
         {
             "descr": "Elemento Reflector",
-            "expr": ".55*lambda",
+            "expr": ".52*lambda",
             "name": "EReflector",
-            "value": "55.055"
+            "value": "52.052"
         },
         {
             "descr": "Elemento Activo",
@@ -44,9 +44,9 @@
         },
         {
             "descr": "Director 1",
-            "expr": ".42*lambda",
+            "expr": ".40*lambda",
             "name": "D1",
-            "value": "42.042"
+            "value": "40.04"
         },
         {
             "descr": "Director 2",

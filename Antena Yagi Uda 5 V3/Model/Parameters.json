@@ -1,0 +1,83 @@
+{
+    "parameters": [
+        {
+            "descr": "Tamaño en X",
+            "expr": "100",
+            "name": "x",
+            "value": "100"
+        },
+        {
+            "descr": "Tamaño en Y",
+            "expr": "100",
+            "name": "y",
+            "value": "100"
+        },
+        {
+            "descr": "Grozor del dielectrico",
+            "expr": "1.565",
+            "name": "zDielectrico",
+            "value": "1.565"
+        },
+        {
+            "descr": "Grozor del Cobre",
+            "expr": ".035",
+            "name": "zCobre",
+            "value": ".035"
+        },
+        {
+            "descr": "Lambda",
+            "expr": "100.1",
+            "name": "lambda",
+            "value": "100.1"
+        },
+        {
+            "descr": "Elemento Reflector",
+            "expr": ".515*lambda",
+            "name": "EReflector",
+            "value": "51.5515"
+        },
+        {
+            "descr": "Elemento Activo",
+            "expr": ".46*lambda",
+            "name": "EActivo",
+            "value": "46.046"
+        },
+        {
+            "descr": "Director 1",
+            "expr": ".40*lambda",
+            "name": "D1",
+            "value": "40.04"
+        },
+        {
+            "descr": "Director 2",
+            "expr": ".36*lambda",
+            "name": "D2",
+            "value": "36.036"
+        },
+        {
+            "descr": "Boom Metalico",
+            "expr": ".8*lambda",
+            "name": "Boom",
+            "value": "80.08"
+        },
+        {
+            "descr": "Distancia entre elementos",
+            "expr": ".20*lambda",
+            "name": "Distancia",
+            "value": "20.02"
+        },
+        {
+            "descr": "Ancho de los elementos",
+            "expr": "10",
+            "name": "Ancho",
+            "value": "10"
+        },
+        {
+            "descr": "Ancho del Boom",
+            "expr": "4",
+            "name": "ABoom",
+            "value": "4"
+        }
+    ],
+    "version": 1
+}

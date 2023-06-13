@@ -1,28 +1,28 @@
-12/Jun/2023 20:27:16  Defined reference frequency for open boundary condition (2.5 GHz) is larger
+12/Jun/2023 22:03:21  Defined reference frequency for open boundary condition (2.5 GHz) is larger
                       than the lowest relevant system frequency (monitor at 2 GHz).
                       Please check the Settings for PML Boundary (Simulation > Settings > Boundary
                       Conditions > Open Boundary) to ensure accurate monitor results for the lowest
                       frequency of interest. More...
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:17  Due to unspecified frequency setting the evaluation of the constant tangent
+12/Jun/2023 22:03:22  Due to unspecified frequency setting the evaluation of the constant tangent
                       delta model "dielectric" is performed at the center frequency of 2.5 GHz.
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:18  *** Warning ***
+12/Jun/2023 22:03:23  *** Warning ***
                       
                       This software is licensed for personal and educational purposes only.
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:18  The following farfield monitor(s) have been adjusted to model box [-56.1361,
+12/Jun/2023 22:03:23  The following farfield monitor(s) have been adjusted to model box [-56.1361,
                       56.1361, -52.2007, 56.1361, -3.30227, 3.23363]:
                         farfield (f=2), farfield (f=2.4), farfield (f=3).
                       For further information please check the page "Special Solver Parameters -
                       Solver" in the Online Help.
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:18  
-                      Solver started at: 08:27 PM Monday, 12. June 2023 (Hora estándar central (México))
+12/Jun/2023 22:03:23  
+                      Solver started at: 10:03 PM Monday, 12. June 2023 (Hora estándar central (México))
                       
                         Module:  Time Domain: S-Parameter (Win 64)
                         Version: 2023.4 Release from 2023-05-04 (change 1108613)
@@ -31,7 +31,7 @@
                       ------------------------------------------------------------------------------
 
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:18  ======================================================================
+12/Jun/2023 22:03:23  ======================================================================
                        Solver cycle: 1
                       ======================================================================
                       
@@ -40,29 +40,29 @@
                       
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:18  Units settings: 
+12/Jun/2023 22:03:23  Units settings: 
                       
                         Dimensions: mm
                         Frequency:  GHz
                         Time:       ns
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:18  The dispersive material update [Automatic] will be performed using the "Standard" update schema
+12/Jun/2023 22:03:23  The dispersive material update [Automatic] will be performed using the "Standard" update schema
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:31  Virtual radius setting will not be considered for the distributed discrete port 1.
+12/Jun/2023 22:03:41  Virtual radius setting will not be considered for the distributed discrete port 1.
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:31  The following discrete edge port is connected to metal material:
+12/Jun/2023 22:03:41  The following discrete edge port is connected to metal material:
                       	1
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:31  *** Warning ***
+12/Jun/2023 22:03:41  *** Warning ***
                       
-12/Jun/2023 20:27:31  The wire radius of discrete port '1' is greater than some of the adjacent mesh lines. More...
+12/Jun/2023 22:03:41  The wire radius of discrete port '1' is greater than some of the adjacent mesh lines. More...
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:31  Mesh statistics:
+12/Jun/2023 22:03:41  Mesh statistics:
                       
                          Hexahedral mesh type: Perfect Boundary Approximation (PBA)
                             Version: default
@@ -75,7 +75,10 @@
                          Acceleration mode: CPU
                          PBA fill limit: 99.00% (inverse)
 
-12/Jun/2023 20:27:32  Boundary conditions: 
+12/Jun/2023 22:03:27     *** Warning ***  current system memory usage reached 90% (7 GB)
+
+
+12/Jun/2023 22:03:43  Boundary conditions: 
                       
                         YZsymmetry: none
                         XZsymmetry: none
@@ -93,14 +96,14 @@
                         PML-Type: Convolution PML
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:32  Frequency settings: 
+12/Jun/2023 22:03:43  Frequency settings: 
                       
                         Fmin:         2
                         Fmax:         3
                         Nfsteps(lin): 1001
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:33  Field update statistics:
+12/Jun/2023 22:03:43  Field update statistics:
                       
                         Number of components in total: 	505418
                         Number of lossy metal components:	4572
@@ -109,28 +112,28 @@
                       Subcycling state:      			Automatically deactivated
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:27:33  Port: 1
+12/Jun/2023 22:03:43  Port: 1
                       
-12/Jun/2023 20:27:33    Discrete element, reference impedance = 50 Ohm
+12/Jun/2023 22:03:43    Discrete element, reference impedance = 50 Ohm
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:28:12  
+12/Jun/2023 22:04:33  
                       --------------------------------------------------------------------------------
-12/Jun/2023 20:28:12  Steady state energy criterion met, solver finished successfully.
+12/Jun/2023 22:04:33  Steady state energy criterion met, solver finished successfully.
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:28:12  Frequency domain results normalized to default signal.
+12/Jun/2023 22:04:33  Frequency domain results normalized to default signal.
                       
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:28:12  
+12/Jun/2023 22:04:33  
                         ----------------------------------------------------------------------------
                                             Peak memory used (kB)         Free physical memory (kB) 
                                                                           At begin     Minimum      
                         ----------------------------------------------------------------------------
-                        CAD preparation     13760                         1989272      1989272      
-                        Matrices calc.      135742                        1971679      1861328      
-                        Solver run total    84896                         2048116      1862152      
+                        CAD preparation     13876                         1085684      1085684      
+                        Matrices calc.      133593                        1083984      763671       
+                        Solver run total    76332                         1109552      753104       
                         ----------------------------------------------------------------------------
                       
                       --------------------------------------------------------------------------------
@@ -154,27 +157,27 @@
                            used:                          	1.164767246e-003 ns
                       
                         CAD preparation time:             	1      	s
-                        Matrix calculation time:          	11 	s
-                        Solver setup time:                	3 	s
-                        Solver loop time:                 	36 	s
-                        Solver post-processing time:      	0 	s
+                        Matrix calculation time:          	16 	s
+                        Solver setup time:                	4 	s
+                        Solver loop time:                 	46 	s
+                        Solver post-processing time:      	1 	s
                                                           	------------
-                        Total solver time:                	51 	s
+                        Total solver time:                	68 	s  ( = 0 h, 1 m, 8 s )
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:28:12  
+12/Jun/2023 22:04:34  
                         Adaptive port meshing time:          	0      	s
-                        Total solver time (all cycles):      	51     	s
-                        Solver initialization and clean-up:  	3      	s
+                        Total solver time (all cycles):      	68     	s  ( = 0 h, 1 m, 8 s )
+                        Solver initialization and clean-up:  	2      	s
                                                              	------------
-                        Total simulation time:               	54     	s
+                        Total simulation time:               	70     	s  ( = 0 h, 1 m, 10 s )
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:28:12  Solver finished at: 08:28 PM Monday, 12. June 2023
+12/Jun/2023 22:04:34  Solver finished at: 10:04 PM Monday, 12. June 2023
                       
                       
                       
                       ------------------------------------------------------------------------------
-12/Jun/2023 20:28:17  Creating parametric 1D results for Run ID 1
+12/Jun/2023 22:04:39  Creating parametric 1D results for Run ID 1
                       
                       ------------------------------------------------------------------------------
