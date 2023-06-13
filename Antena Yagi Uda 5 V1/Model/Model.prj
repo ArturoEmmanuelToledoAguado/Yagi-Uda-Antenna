@@ -5,7 +5,7 @@
 [Author]
 toled
 [Mesh Cells]
-
+80,665
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -15,5 +15,7 @@ HF Time Domain
 [Last Solver Type Abb]
 t
 [Results]
-Unavailable
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:antena yagi uda 5 v1.cst?0a948cde5dd4d9d5363ef42e83b3b842?50501:numberofparameters=12:port=1>mode=1>zre=0>zim=0:::aboom?ancho?d1?d2?distancia?eactivo?ereflector?lambda?x?y?zcobre?zdielectrico
 [Comment]
