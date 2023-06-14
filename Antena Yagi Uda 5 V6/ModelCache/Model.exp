@@ -1,5 +1,7 @@
 @CACHEFILEVERSION 2
 @DOUBLE
+ (((-Ancho/2#)+(-40#+Distancia))+Ancho/2#)-2.5#
+-22.48
 (((-Ancho/2#)+(-40#+Distancia))+Ancho/2#)+2.5#
 -17.48
 (((-Ancho/2#)+(-40#+Distancia))+Ancho/2#)+3.5#

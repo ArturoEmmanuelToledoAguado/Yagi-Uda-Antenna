@@ -1,0 +1,24 @@
+UNITS=MM
+ID=42
+#
+#Num Features
+#
+F 5
+#
+#Feature symbol names
+#
+$0 r550
+$1 r500
+#
+#Feature attribute names
+#
+@0 .drill
+
+#
+#Layer features
+#
+P 42.26 31.81 0 P 0 0;0=1;ID=2
+P 46.26 31.81 0 P 0 0;0=1;ID=5
+P 46.26 27.811 0 P 0 0;0=1;ID=8
+P 42.26 27.811 0 P 0 0;0=1;ID=11
+P 44.26486875 29.81406875 1 P 0 0;0=1;ID=14

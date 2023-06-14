@@ -1,0 +1,20 @@
+UNITS=MM
+ID=39
+#
+#Num Features
+#
+F 5
+#
+#Feature symbol names
+#
+$0 r753.2
+$1 r703.2
+
+#
+#Layer features
+#
+P 42.26 31.81 0 P 0 0;;ID=1
+P 46.26 31.81 0 P 0 0;;ID=4
+P 46.26 27.811 0 P 0 0;;ID=7
+P 42.26 27.811 0 P 0 0;;ID=10
+P 44.26486875 29.81406875 1 P 0 0;;ID=13
